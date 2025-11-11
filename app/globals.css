@@ -4,8 +4,11 @@
   --background: #ffffff;
   --foreground: #171717;
 }
-
+@theme {
+   --color-primary: oklch(64.5% 0.246 16.439)
+}
 @theme inline {
+ 
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
